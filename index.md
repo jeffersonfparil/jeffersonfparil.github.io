@@ -2,8 +2,8 @@
 layout: home
 ---
 
-| [![](icons/about.png)](about/) [**About**](about/) | [![](icons/projects.png)](projects/) [**Projects**](projects/) | [![](icons/writeups.png)](writeups/) [**Writeups**](writeups/) |
+| [![](icons/about.png)](about/) [**About**](about/) | [![](icons/projects.png)](projects.html) [**Projects**](projects.html) | [![](icons/writeups.png)](writeups.html) [**Writeups**](writeups.html) |
 |:------------------------------:|:------------------------------:|:------------------------------:|
-| [![](icons/software.png)](software/) [**Software**](software/)  | [![](icons/store.png)](store/) [**Store**](store/)    | [![](icons/contact.png)](contact/) [**Contact**](contact/) |
+| [![](icons/software.png)](software.html) [**Software**](software.html)  | [![](icons/store.png)](store.html) [**Store**](store.html)    | [![](icons/contact.png)](contact.html) [**Contact**](contact.html) |
 
 <img src="/icons/blog.png" alt="drawing" width="70"/>
