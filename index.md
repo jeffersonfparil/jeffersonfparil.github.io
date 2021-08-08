@@ -6,4 +6,4 @@ layout: home
 |:------------------------------:|:------------------------------:|:------------------------------:|
 | [![](icons/software.png)](software.html) [**Software**](software.html)  | [![](icons/store.png)](store.html) [**Store**](store.html)    | [![](icons/contact.png)](contact.html) [**Contact**](contact.html) |
 
-<img src="/icons/blog.png" alt="drawing" width="70"/>
+<img src="/icons/blog.png" alt="drawing" width="70"/> **Blag Posts**
