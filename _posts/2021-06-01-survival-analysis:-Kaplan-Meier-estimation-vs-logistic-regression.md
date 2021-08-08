@@ -10,13 +10,13 @@ Kaplan-Meier estimation is non-parametric, while logistic regression is parametr
 
 ## Kaplan-Meier survival function estimation
 
-The Kaplan-Meier estimator, also known as the product limit estimator of the survival function $f(t)$ at time $t$ is defined as:
+The Kaplan-Meier estimator, also known as the product limit estimator of the survival function $$f(t)$$ at time $$t$$ is defined as:
 
 $$
 \hat f(t) = \prod_{i|t_i<t} \left ( 1 - {d_i \over n_i} \right )
 $$
 
-where $t_i$ is the $i^{th}$ time before $t$ where at least 1 death occurred, $d_i$ is the number of deaths that occurred at time $t_i$ ($d_i \ge 1$), and $n_i$ is the number of individuals which are still surviving at time $t_i$.
+where $$t_i$$ is the $$i^{th}$$ time before $$t$$ where at least 1 death occurred, $$d_i$$ is the number of deaths that occurred at time $$t_i$$ ($$d_i \ge 1$$), and $$n_i$$ is the number of individuals which are still surviving at time $$t_i$$.
 
 To test whether or not two survival functions modelled using the Kaplan-Meier estimators are significantly different, the log-rank test is usually performed.
 
@@ -28,15 +28,15 @@ $$
 y = y_{min} + \left ( { y_{max}-y_{min} \over 1 + e^{-k(t-t_0)} } \right )
 $$
 
-where $y$ is the survival (or growth) data, $y_{min}$ and $y_{max}$ are the minimum and maximum survival, respectively which can be set as constants or parameters to be estimated, $k$ is the maximum survival rate per unit time $t$, and $t_0$ is the time at which $k$ occurs. These parameters are estimated using various cost function minimisation algorithms.
+where $$y$$ is the survival (or growth) data, $$y_{min}$$ and $$y_{max}$$ are the minimum and maximum survival, respectively which can be set as constants or parameters to be estimated, $$k$$ is the maximum survival rate per unit time $$t$$, and $$t_0$$ is the time at which $$k$$ occurs. These parameters are estimated using various cost function minimisation algorithms.
 
-The estimated logistic function parameters which best fit the data (e.g. $\hat y_{min}$, $\hat y_{max}$, $\hat k$, and $\hat t_{0}$) are used to compare the different datasets. T-tests on each parameter can be used to test for significant differences.
+The estimated logistic function parameters which best fit the data (e.g. $$\hat y_{min}$$, $$\hat y_{max}$$, $$\hat k$$, and $$\hat t_{0}$$) are used to compare the different datasets. T-tests on each parameter can be used to test for significant differences.
 
 ### Statistical significance tests
 
 For Kaplan-Meier estimation, the log-rank test will yield a p-value which answers whether or not the two survival (or growth) data are significantly different.
 
-For logistic regression, the parametric nature of this method allows us to ask more specific questions, e.g. which survival (or growth) data has a lower $y_{max}$, higher $y_{min}$,  higher maximum rate ($k$), and which one lags behind in terms of $t_0$.
+For logistic regression, the parametric nature of this method allows us to ask more specific questions, e.g. which survival (or growth) data has a lower $$y_{max}$$, higher $$y_{min}$$,  higher maximum rate ($$k$$), and which one lags behind in terms of $$t_0$$.
 
 
 ### Illustration
