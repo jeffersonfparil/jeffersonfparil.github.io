@@ -36,7 +36,7 @@ The recursive drive allele frequency is:
 
 $$
 \begin{aligned}
-q_{t+1} &= {2q \over 2 - c + cq},
+q_{t+1} &= {2q_{t} \over 2 - c + cq_{t}},
 \end{aligned}
 $$
 
