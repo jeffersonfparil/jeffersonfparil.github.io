@@ -21,7 +21,7 @@
 title: Reveries in genetics, evolution, and ecology
 email: jeffersonparil@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Documenting my musings in quantiative and population genetics,
+  Documenting my musings in quantitative and population genetics,
   evolution, and ecology.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jeffersonfparil.github.io/" # the base hostname & protocol for your site, e.g. http://example.com

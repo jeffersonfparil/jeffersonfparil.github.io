@@ -1,4 +1,4 @@
-# Recursive allele frequecy equations of W-shredder and X-shredder suppression gene drives
+# Recursive allele frequency equations of W-shredder and X-shredder suppression gene drives
 
 [2021-08-08]
 
