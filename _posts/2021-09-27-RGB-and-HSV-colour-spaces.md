@@ -1,4 +1,4 @@
-# Colours are hard
+# RBG and HSV colour spaces
 
 [2021-09-27]
 
@@ -6,7 +6,7 @@ We, humans sense light and colours in RGB, i,e, using **R**ed, **G**reen, and **
 
 ![](/img/2021-09-27.svg)
 
-For example, when I tell you that a colour pixel is `[100, 160, 35]` to represent the red, green, and blue 8-bit colour channels, what colour do you picture? Contrast that with `[0.25, 0.64, 0.38]` to represent the hue, saturation, and value of a pixel. We know that for hue, i.e. the colour wheel goes across the 3 primary colours where red is at position 0, green at a third of the way (i.e. ~33% or 120°), and blue at two-thirds of the way (i.e. ~67% or 240°). The colours transitions from red, orange, yellow, yellow-green, green, cyan, blue, violet, magenta, then back to red. Now since we have 25% hue value or  90° along the colour, then we can say that the pixel is yellow-greenish.
+For example, when I tell you that a colour pixel is `[100, 160, 35]` to represent the red, green, and blue 8-bit colour channels, what colour do you picture? Contrast that with `[0.25, 0.64, 0.38]` to represent the hue, saturation, and value of a pixel. We know that for hue, i.e. the colour wheel goes across the 3 primary colours where red is at position 0, green at a third of the way (i.e. ~33% or 120°), and blue at two-thirds of the way (i.e. ~67% or 240°). The colours transitions from red, orange, yellow, yellow-green, green, cyan, blue, violet, magenta, then back to red. Now since we have 25% hue value or  90° along the colour wheel, then we can say that the pixel is yellow-greenish.
 
 Python script to generate the RGB and HSV colour representations:
 
