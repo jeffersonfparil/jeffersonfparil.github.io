@@ -2,7 +2,7 @@
 
 [2021-11-17]
 
-![](/img/2021-11-17.svg)
+![](/img/2021-11-17.png)
 
 Violinplotter version 3 is out! Now with nonparametric pairwise mean comparison via the Mann-Whitney test as default.
 
