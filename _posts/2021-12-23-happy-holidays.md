@@ -11,14 +11,14 @@ x = rnorm(1e6, mean=0, sd=0.1)
 d = density(x)
 colour_leaves = rgb(165/256, 215/256, 85/256)
 
-par(bg = 'black')
+par(bg='black')
 
 plot(d, xlim=c(-0.5,0.5), ylim=c(0,5))
 mtext("Happy Holidays!", cex=3, col="white")
 grid()
 polygon(d, col=colour_leaves, border=colour_leaves)
 
-colour_star_border = 
+colour_star_border = "yellow"
 colour_star_border = "yellow"
 colour_star_fill = "yellow"
 points(x=0, y=4.5, pch=24, col=colour_star_border, bg=colour_star_fill, cex=5)
