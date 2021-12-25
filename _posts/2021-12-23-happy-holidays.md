@@ -6,7 +6,7 @@
 
 R Christmas tree.
 
-```
+```{r}
 x = rnorm(1e6, mean=0, sd=0.1)
 d = density(x)
 colour_leaves = rgb(165/256, 215/256, 85/256)
