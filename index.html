@@ -1,0 +1,43 @@
+---
+layout: home
+---
+
+  <table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="/about/"><img src="/icons/about.png" alt="" /></a> <a href="/about/"><strong>About</strong></a></th>
+      <th style="text-align: center"><a href="/projects.html"><img src="/icons/projects.png" alt="" /></a> <a href="/projects.html"><strong>Projects</strong></a></th>
+      <th style="text-align: center"><a href="/writeups.html"><img src="/icons/writeups.png" alt="" /></a> <a href="/writeups.html"><strong>Writeups</strong></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="/software.html"><img src="/icons/software.png" alt="" /></a> <a href="/software.html"><strong>Software</strong></a></td>
+      <td style="text-align: center"><a href="/store.html"><img src="/icons/store.png" alt="" /></a> <a href="/store.html"><strong>Store</strong></a></td>
+      <td style="text-align: center"><a href="/contact.html"><img src="/icons/contact.png" alt="" /></a> <a href="/contact.html"><strong>Contact</strong></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/icons/blog.png" alt="drawing" width="70" /> <strong>Blag Posts</strong></p>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+   | 
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+  <span class="page_number ">
+    (Page: {{ paginator.page }} of {{ paginator.total_pages }})
+  </span>
+  <br>
+</div> 
