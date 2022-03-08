@@ -4,7 +4,7 @@
 
 ![](/img/2022-03-07.png)
 
-We can draw of a quadratic Bézier curve by connecting two points **P0** and **P2** where a third point, **P1** attracts the connecting line towards it.
+We drew a quadratic Bézier curve by connecting two points **P0** and **P2** where a third point, **P1** attracts the connecting line towards it.
 
 ```
 using Plots
