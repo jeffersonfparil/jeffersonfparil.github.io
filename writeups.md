@@ -14,6 +14,14 @@ layout: default
 
 - Paril JF, Balding DJ, Fournier-Level A (2021). Optimizing sampling design and sequencing strategy for the genomic analysis of quantitative traits in natural populations.  Molecular Ecology Resources 2021. <https://doi.org/10.1111/1755-0998.13458>
 
+## Genomics
+
+- Paril, Jefferson, Gunjan Pandey, Emma M. Barnett, Rahul V. Rane, Leon Court, Thomas Walsh, and Alexandre Fournier-Level. “Rounding up the Annual Ryegrass Genome: High-Quality Reference Genome of Lolium Rigidum.” Frontiers in Genetics 13 (2022). https://www.frontiersin.org/articles/10.3389/fgene.2022.101269
+
+## Population Genetics
+
+- Paril, Jeff F., and Ben L. Phillips. “Slow and Steady Wins the Race: Spatial and Stochastic Processes and the Failure of Suppression Gene Drives.” Molecular Ecology 31, no. 17 (2022): 4451–64. https://doi.org/10.1111/mec.16598.
+
 ## Plant Breeding
 
 - Paril JF, Sanchez MAB, Salazar AM, Lalusin AG, Sta. Cruz P, Ocampo ETM (2017). Genomic selection in maize (Zea mays L.) population improvement for waterlogging tolerance. [Philippine Journal of Crop Science 2017 Vol.42 No.1 pp.15-26 ref.39](https://scholar.google.com/scholar?oi=bibs&cluster=11309067069127268177&btnI=1&hl=en).
