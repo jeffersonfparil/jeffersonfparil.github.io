@@ -8,7 +8,7 @@ $$
 y = X\beta + \epsilon
 $$
 
-where `$y$` is a vector of $n$ observations (*known*),
+where $$y$$ is a vector of $n$ observations (*known*),
 $X$ is the $n \times p$ matrix of explantory variables (*known*),
 $\beta$ is a vector of $p$ explanatory effects (also called estimators or predictors; *unknown*), and
 $\epsilon$ is the vector of residual effects (*unknown*), i.e.
@@ -85,7 +85,11 @@ i.e. using a set of $\lambda$, divide the $n$ observations into $k$ groups or fo
 (3) reshuffle, generate a new grouping, and repeat for k-fold cross-validation, 
 (4) repeat the k-fold cross-validation $r$ times.
 
-On the otherhand, closed-form solution for Lasso only exist if $X$
+On the otherhand, closed-form solution for Lasso only exist if $X$ is orthonormal ($X^{T} = X^{-1}$ hence $\hat\beta = X^{T}y$), i.e.
+
+$$
+\hat\beta_j = 
+$$
 
 
 
