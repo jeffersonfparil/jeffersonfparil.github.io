@@ -8,7 +8,7 @@ $$
 y = X\beta + \epsilon
 $$
 
-where $y$ is a vector of $n$ observations (*known*),
+where $`y`$ is a vector of $n$ observations (*known*),
 $X$ is the $n \times p$ matrix of explantory variables (*known*),
 $\beta$ is a vector of $p$ explanatory effects (also called estimators or predictors; *unknown*), and
 $\epsilon$ is the vector of residual effects (*unknown*), i.e.
