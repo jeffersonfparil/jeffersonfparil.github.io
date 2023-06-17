@@ -8,7 +8,7 @@ $$
 y = X\beta + \epsilon
 $$
 
-where $$y$$ is a vector of $n$ observations (*known*),
+where $y$ is a vector of $n$ observations (*known*),
 $X$ is the $n \times p$ matrix of explantory variables (*known*),
 $\beta$ is a vector of $p$ explanatory effects (also called estimators or predictors; *unknown*), and
 $\epsilon$ is the vector of residual effects (*unknown*), i.e.
@@ -88,9 +88,19 @@ i.e. using a set of $\lambda$, divide the $n$ observations into $k$ groups or fo
 On the otherhand, closed-form solution for Lasso only exist if $X$ is orthonormal ($X^{T} = X^{-1}$ hence $\hat\beta = X^{T}y$), i.e.
 
 $$
-\hat\beta_j = 
+\hat\beta_j = sign(\hat\beta^{OLS}_j) max(\{ \hat\beta^{OLS}_j - \lambda, 0 \})
 $$
 
+and by extension the closed-form solution of elasticnet is
 
+$$
+\hat\beta_j = sign(\hat\beta^{OLS}_j) { max(\{ \hat\beta^{OLS}_j - \alpha \lambda, 0 \}) \over 1 + 0.5 (1-\alpha)\lambda }
+$$
 
+For derivation details see [lasso closed-form solution](https://stats.stackexchange.com/questions/17781/derivation-of-closed-form-lasso-solution), and [elasticnet closed-form solution](https://myweb.uiowa.edu/pbreheny/7600/s16/notes/3-28.pdf).
 
+## Attempting to find a more efficient algorithm for elasticnet when $X$ is not orthonormal
+
+My idea is to use a similar soft-thresholding solution to the closed-form solution to lasso/elasticnet 
+followed by a correction to non-orthonormality by redistributing the penalised effects into the non-penalised variables 
+so we end up with the correct $X\hat\beta$.
