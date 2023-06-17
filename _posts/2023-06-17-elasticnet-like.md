@@ -67,7 +67,7 @@ $$
 where $||A||$ is the absolute value of $A$, and elasticnet combines these two penalisations using an elastic parameter, $\alpha \in [0, 1]$ with the form
 
 $$
-argmin_{\hat\beta, \alpha, \lambda} (X\hat\beta - y)^{2} + \lambda \left ( {{(1-\alpha) \over 2} (\hat\beta)^{2}} + {\alpha ||\hat\beta||} \right )
+argmin_{\hat\beta, \alpha, \lambda} (X\hat\beta - y)^{2} + \lambda \left ( {1-\alpha \over 2} (\hat\beta)^{2} + \alpha ||\hat\beta|| \right )
 $$
 
 These models can be solved using iterative algorithms, i.e. iteratively testing various values of $\hat\beta$, $\lambda$, and $\alpha$ which minimise the cost functions 
