@@ -157,7 +157,7 @@ $$
 \hat\beta_j = sign(\hat\beta^{OLS}_j) \left ( || \hat\beta^{OLS}_j || + \gamma {\hat\beta^{OLS}_j \over B} \right ) ~, ~~ if ~~ z_j \ge \lambda
 $$
 
-## Nex steps
+## Next steps
 
 - Create a self-standing implementation with an R API. See [poolgen/src/gp/penalise.rs](https://github.com/jeffersonfparil/poolgen/blob/main/src/gp/penalise.rs) for the current implementaion used with pool sequencing data.
 - Improve the algorithm for better computational efficiency and accuracy (specifically account for overfitting in some cross-fold validation runs which seems to be reducing the performance of elasticnet, e.g. filter out parameter values ($\lambda$ and $\alpha$) which resulted in overfitting, or probably use the mode of the parameters across the replicated k-fold cross-validation runs)
