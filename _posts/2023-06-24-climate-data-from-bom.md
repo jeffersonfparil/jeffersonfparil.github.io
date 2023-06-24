@@ -29,8 +29,6 @@ raster::crs(e) = "+proj=longlat +datum=WGS84 +no_defs"
 rainfall = raster::crop(rainfall, e)
 
 ### Plot
-plot(0, xlim=x_limit, ylim=y_limit, asp=1, type="n", xlab="Longitude", ylab="Latitude")
-grid()
 plot(rainfall)
 outline = maps::map("world", plot=FALSE)
 xrange = range(outline$x, na.rm=TRUE)
@@ -41,6 +39,7 @@ ybox = yrange + c(-2, 2)
 polypath(c(outline$x, NA, c(xbox, rev(xbox))),
         c(outline$y, NA, rep(ybox, each=2)),
         col="light blue", rule="evenodd")
+grid()
 
 ### Extract a data point for a specific location
 x = 146.4754 ### longitude coordinate of the location of interest
