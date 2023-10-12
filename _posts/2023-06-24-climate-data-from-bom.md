@@ -1,4 +1,4 @@
-# Climate data from the Bureau of Meteorology (BOM) of the Autralian government
+# Climate data from the Bureau of Meteorology (BOM) of the Australian government
 
 Publicly available climate information is available from the [Bureau of Meteorology](http://www.bom.gov.au/climate/maps/averages/).
 
