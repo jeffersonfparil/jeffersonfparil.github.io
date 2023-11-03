@@ -11,6 +11,3 @@ layout: default
 <img src="/icons/creative_commons.png" width="100"/>
 
 These works are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
-
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jeffersonfparil)
