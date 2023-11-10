@@ -2,6 +2,11 @@
 layout: default
 ---
 
+# Public software repositories:
+
+- [Github](https://github.com/jeffersonfparil/)
+- [Gitlab](https://gitlab.com/jeffersonfparil)
+ 
 # Software
 
 ## [Violinplotter](https://github.com/jeffersonfparil/violinplotter)
@@ -29,8 +34,3 @@ A suite of Bash, python, and R scripts for extracting plant health-related metri
 <img src="/img/araseed_mucilage.jpg" width="500"/>
 
 Measure *Arabidopsis thaliana* seed mucilage area.
-
-## Public software repositories:
-
-- [Gitlab](https://gitlab.com/jeffersonfparil)
-- [Github](https://github.com/jeffersonfparil/)
