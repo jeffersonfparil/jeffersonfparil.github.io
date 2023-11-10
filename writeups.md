@@ -17,6 +17,7 @@ layout: default
 ## Genomics
 
 - Paril, Jefferson, Gunjan Pandey, Emma M. Barnett, Rahul V. Rane, Leon Court, Thomas Walsh, and Alexandre Fournier-Level. “Rounding up the Annual Ryegrass Genome: High-Quality Reference Genome of Lolium Rigidum.” Frontiers in Genetics 13 (2022). <https://www.frontiersin.org/articles/10.3389/fgene.2022.101269>
+- Paril, J., Zare, T., & Fournier-Level, A. (2023). Compare_Genomes: A comparative genomics workflow to streamline the analysis of evolutionary divergence across eukaryotic genomes. Current Protocols, 3, e876. doi: 10.1002/cpz1.876, <https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/cpz1.876>
 
 ## Population Genetics
 
