@@ -2,12 +2,16 @@
 layout: default
 ---
 
-# Public software repositories:
+# Software
 
 - [Github](https://github.com/jeffersonfparil/)
 - [Gitlab](https://gitlab.com/jeffersonfparil)
  
-# Software
+# Highlights
+
+## [compate_genomes](https://github.com/jeffersonfparil/compare_genomes)
+
+<img src="https://github.com/jeffersonfparil/compare_genomes/blob/main/misc/compare_genomes_workflow.svg" width="500">
 
 ## [Violinplotter](https://github.com/jeffersonfparil/violinplotter)
 
