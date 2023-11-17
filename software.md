@@ -11,7 +11,7 @@ layout: default
 
 ## [compate_genomes](https://github.com/jeffersonfparil/compare_genomes)
 
-<img src="https://github.com/jeffersonfparil/compare_genomes/blob/main/misc/compare_genomes_workflow.svg" width="500">
+<img src="[https://github.com/jeffersonfparil/compare_genomes/blob/main/misc/compare_genomes_workflow.svg](https://raw.githubusercontent.com/jeffersonfparil/compare_genomes/82047bc070ade87d14df99baf0dea78eaeb54985/misc/compare_genomes_workflow.svg)" width="500">
 
 ## [Violinplotter](https://github.com/jeffersonfparil/violinplotter)
 
