@@ -12,7 +12,7 @@ layout: default
 
 ## Plant Breeding
 
-- Paril, J., Reif, J., Fournier-Level, A. and Pourkheirandish, M. (2023), Heterosis in crop improvement. Plant J. https://doi.org/10.1111/tpj.16488.
+- Paril, J., Reif, J., Fournier-Level, A. and Pourkheirandish, M. (2023), Heterosis in crop improvement. Plant J. [https://doi.org/10.1111/tpj.16488](https://doi.org/10.1111/tpj.16488).
 - Paril JF, Sanchez MAB, Salazar AM, Lalusin AG, Sta. Cruz P, Ocampo ETM (2017). Genomic selection in maize (Zea mays L.) population improvement for waterlogging tolerance. [Philippine Journal of Crop Science 2017 Vol.42 No.1 pp.15-26 ref.39](https://scholar.google.com/scholar?oi=bibs&cluster=11309067069127268177&btnI=1&hl=en).
 - Salazar AM, Pascual CB, Caasi-Lit MT, Pentecostes KZ, Dumalag PY, Laida Jr VA, Paril JF (2016). Breeding potential of Philippine traditional maize varieties. [SABRAO J. Breed. Genet. 48 (2) 154-161](http://sabraojournal.org/wp-content/uploads/2018/01/SABRAO-J-Breed-Genet-48-2-154-161-Salazar-1.pdf).
 - Caasi-Lit MT, Salazar AM, Paril JF, Beltran AKM, Sanchez MAB, Novio BV (2018). Sources of resistance to the Asian corn borer [Ostrinia furnacalis (Guenee)] in Philippine’s traditional maize varieties. [SABRAO J. Breed. Genet. 50: 254-269](http://sabraojournal.org/wp-content/uploads/2018/09/SABRAO-J-Breed-Genet-50-3-254-269-CAASI-LIT.pdf).
