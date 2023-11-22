@@ -23,6 +23,8 @@ email: jeffersonparil@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documenting my musings in quantitative and population genetics,
   evolution, and ecology.
+  This website is a representation of my **personal** views, studies and reflections, and 
+  **does not** in any way reflect those of my employer.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jeffersonfparil.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jeffersonfparil
