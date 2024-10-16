@@ -16,6 +16,8 @@ vec_id = unlist(lapply(strsplit(names(vec_loc_freq), "\\|"), FUN=function(x){x[1
 vec_lon = as.numeric(unlist(lapply(strsplit(names(vec_loc_freq), "\\|"), FUN=function(x){x[2]})))
 vec_lat = as.numeric(unlist(lapply(strsplit(names(vec_loc_freq), "\\|"), FUN=function(x){x[3]})))
 df = data.frame(id=vec_id, lon=vec_lon, lat=vec_lat, y=as.vector(vec_loc_freq))
+### Let's use a small subset to speed up computations
+df = df[sample(1:nrow(df), size=100), , drop=FALSE]
 ### Autoregressive model
 model_ar = sommer::mmer(
   fixed = y ~ 1 + id,
@@ -28,9 +30,9 @@ model_ar = sommer::mmer(
 ### Smooth spline model
 n_lons = length(unique(df$lon))
 n_lats = length(unique(df$lat))
-model_ar = sommer::mmer(
+model_sp = sommer::mmer(
   fixed = y ~ 1 + id,
-  random = ~sommer::spl2Dc(x.coord=lon, y.coord=lat, nsegments=c(n_lons, n_lats), degree=c(3,3)),
+  random = ~sommer::spl2Da(x.coord=lon, y.coord=lat, nsegments=c(n_lons, n_lats), degree=c(3,3)),
   rcov = ~ units,
   data = df,
   dateWarning = FALSE,
