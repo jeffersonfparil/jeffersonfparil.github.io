@@ -82,3 +82,5 @@ svg("sommer_spatial_AR1_vs_spl2Da.svg", width=10, height=5)
 gridExtra::grid.arrange(p_ar, p_sp, nrow = 1)
 dev.off()
 ```
+
+From this example, we can say that smooth spline has slightly better fit than the autoregressive model. The smooth spline yields higher variance in the random effects but the resulting fitted values are smoother than the autoregressive model. An alternative way to interpret this is that with smooth spline models, there is lower probability of identifying artifacts, i.e. small intense peaks and troughs.
