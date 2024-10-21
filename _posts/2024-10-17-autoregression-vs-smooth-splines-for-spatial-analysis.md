@@ -19,8 +19,8 @@ str(df)
 ### Autoregressive model
 model_ar = sommer::mmer(
   fixed = Y ~ 1 + V,
-  random = ~ row_factor + col_factor + sommer::AR1(row_factor:col_factor),
-  rcov = ~ units,
+  random = ~ row_factor:col_factor,
+  rcov = ~ sommer::AR1(row_factor:col_factor),
   data = df,
   dateWarning = FALSE,
   verbose = TRUE
@@ -57,8 +57,8 @@ df_fitted_sp$y = df_fitted_sp$`A:all.fitted`
 str(df_fitted_sp)
 ### Merge the fitted values for the interaction of spatial terms
 df_fitted_merged = merge(
-    data.frame(row=df_fitted_ar$row, col=df_fitted_ar$col, y_ar=df_fitted_ar$y),
-    data.frame(row=df_fitted_sp$row, col=df_fitted_sp$col, y_sp=df_fitted_sp$y),
+    data.frame(row=df_fitted_ar$row, col=df_fitted_ar$col, y_ar=df_fitted_ar$Y.fitted),
+    data.frame(row=df_fitted_sp$row, col=df_fitted_sp$col, y_sp=df_fitted_sp$Y.fitted),
     by=c("row", "col")
 )
 ### Distribution differences? Yes, there is more variation in the smooth spline model.
