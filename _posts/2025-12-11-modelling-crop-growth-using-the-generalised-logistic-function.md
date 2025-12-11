@@ -4,9 +4,11 @@
 
 The generalised logisitic model for crop growth can be defined as:
 
+{% raw %}
 $$
 y(t) = {A + {{K-A} \over {C + (Qe^{-Bt})^{1/v}}}}
 $$
+{% endraw %}
 
 where:
 
@@ -25,6 +27,8 @@ where:
 
 To solve for $t$ at specific $y$:
 
+{% raw %}
 $$
 t(y) = -{{1} \over {B}} \log {\left( { {{1} \over {Q}} \left( \left( {K - A} \over {y - A} \right)^v - C \right) } \right) }
 $$
+{% endraw %}
