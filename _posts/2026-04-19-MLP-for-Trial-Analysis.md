@@ -2,7 +2,7 @@
 
 [2026-04-19]
 
-![](img/2026-04-19.png)
+![](/img/2026-04-19.png)
 
 I have a feeling that MLP (multi-layer perceptrons --> the generic version of artificial neural networks for deep learning) 
 can be useful in analysing yield trials, especially complex and unbalanced multi-year, multi-environmnent, multi-management,
